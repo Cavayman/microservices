@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmailService/EmailService.iml" filepath="$PROJECT_DIR$/EmailService/EmailService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserAccount/UserAccount.iml" filepath="$PROJECT_DIR$/UserAccount/UserAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-kafka-microservice.iml" filepath="$PROJECT_DIR$/spring-kafka-microservice.iml" />
+    </modules>
+  </component>
+</project>
