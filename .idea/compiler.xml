@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ConfigServer" />
-        <module name="EmailService" />
         <module name="EurekaServer" />
-        <module name="UserAccount" />
+        <module name="OrderService" />
+        <module name="UserService" />
+        <module name="ZuulService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ConfigServer" target="1.8" />
       <module name="EmailService" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="OrderService" target="1.8" />
       <module name="spring-kafka-microservice" target="1.8" />
       <module name="UserAccount" target="1.8" />
+      <module name="UserService" target="1.8" />
+      <module name="ZuulService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -23,9 +23,9 @@
 
 	<modules>
 		<module>EurekaServer</module>
-		<module>ConfigServer</module>
-		<module>UserAccount</module>
-		<module>EmailService</module>
+		<module>OrderService</module>
+		<module>UserService</module>
+		<module>ZuulServer</module>
 	</modules>
 
 </project>

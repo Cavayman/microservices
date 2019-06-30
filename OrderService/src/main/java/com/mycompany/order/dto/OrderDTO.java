@@ -1,18 +1,18 @@
-package com.mycompany.user.dto;
+package com.mycompany.order.dto;
 
-public class UserDTO {
+public class OrderDTO {
 
     private Long id;
-    private String userName;
-    private String password;
+    private String orderName;
+    private String userId;
 
-    public UserDTO() {
+    public OrderDTO() {
     }
 
-    public UserDTO(Long id,String userName,String password){
+    public OrderDTO(Long id, String userName, String password){
         this.id=id;
-        this.userName=userName;
-        this.password=password;
+        this.orderName=userName;
+        this.userId=password;
     }
 
     public Long getId() {
@@ -23,20 +23,21 @@ public class UserDTO {
         this.id = id;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public String getOrderName() {
+        return orderName;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public OrderDTO setOrderName(String orderName) {
+        this.orderName = orderName;
+        return this;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUserId() {
+        return userId;
     }
 
-    public String getPassword() {
-        return password;
+    public OrderDTO setUserId(String userId) {
+        this.userId = userId;
+        return this;
     }
-
 }

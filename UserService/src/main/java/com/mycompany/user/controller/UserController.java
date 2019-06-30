@@ -16,5 +16,4 @@ public class UserController {
         return new UserDTO(1L,"Yurii","123123qwerty");
     }
 
-
 }
